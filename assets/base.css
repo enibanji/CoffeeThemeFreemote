@@ -2993,3 +2993,20 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+
+/* screen settings for banner video */
+.mobile_vid {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop_vid {
+    display: block;
+  }
+
+  .mobile_vid {
+    display: none;
+  }
+}
