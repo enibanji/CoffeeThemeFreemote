@@ -3001,12 +3001,36 @@ details-disclosure > details {
   display: block;
 }
 
+.desktop_vid {
+    display: none !important;
+  }
+
+
 @media only screen and (min-width: 768px) {
   .desktop_vid {
-    display: block;
+    display: block !important;
   }
 
   .mobile_vid {
     display: none;
   }
+}
+
+/* Cart Drawer settings for product */
+.cart-drawer__collection.product_drawer {
+  position: relative;
+}
+
+.cart-drawer__collection.product_drawer .product-form {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.product-headline {
+  background: red;
+  color: white;
+  font-weight: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
 }
